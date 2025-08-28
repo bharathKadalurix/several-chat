@@ -370,4 +370,4 @@ mcpServers:
     command: npx
     args: ["-y", "@notionhq/notion-mcp-server"]
     env:
-      OPENAPI_MCP_HEADERS: '{"Authorization": "Bearer ntn_v30978707628tNio9LC87DTWrlVH6muFJRMmoWu9Ioo7E0", "Notion-Version": "2022-06-28"}'
+      OPENAPI_MCP_HEADERS: '{"Authorization": "Bearer ${NOTION_API_TOKEN}", "Notion-Version": "2022-06-28"}'
